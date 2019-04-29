@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:orientation="vertical"
+    android:background="@color/colorPrimary"
+    >
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+
+        <TextView
+            android:id="@+id/textView8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:text="CallKIt Version 1.0"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="24sp"
+            android:textColor="#ffffff"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/textView8"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="13dp"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/line2" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageView4"
+            android:layout_marginLeft="17dp"
+            android:layout_marginStart="17dp"
+            android:text="Network Services"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="26sp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView14"
+            android:layout_alignStart="@+id/textView14"
+            android:layout_below="@+id/textView14"
+            android:layout_marginLeft="7dp"
+            android:layout_marginStart="7dp"
+            android:text="Easy Access to self services across all Nigerian mobile networks (MTN,GLO,AIRTEL,9MOBILE) via ussd codes which are well represented by buttons and images"
+            android:fontFamily="sans-serif"
+            android:textSize="24sp"
+            android:textColor="#ffffff"/>
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView14"
+            android:layout_alignStart="@+id/textView14"
+            android:layout_below="@+id/textView15"
+            android:layout_marginTop="18dp"
+            android:text="Bank Services"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="26sp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textView17"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView15"
+            android:layout_alignStart="@+id/textView15"
+            android:layout_below="@+id/textView16"
+            android:text="You will have straightforward access to the services of all the Nigerian banks you're registered with and you can also open new bank accounts plus other mind-blowing feature "
+            android:fontFamily="sans-serif"
+            android:textSize="24sp"
+            android:textColor="#ffffff"/>
+
+        <TextView
+            android:id="@+id/textView18"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView16"
+            android:layout_alignStart="@+id/textView16"
+            android:layout_below="@+id/textView17"
+            android:layout_marginTop="19dp"
+            android:text="Airtime Services"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="26sp"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView17"
+            android:layout_alignStart="@+id/textView17"
+            android:layout_below="@+id/textView18"
+            android:text="With this app you can buy airtime at discounted rates and it also has an awesome feature where you can convert your airtime to real time cash"
+            android:fontFamily="sans-serif"
+            android:textSize="24sp"
+            android:textColor="#ffffff"/>
+
+        <TextView
+            android:id="@+id/textView20"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/textView18"
+            android:layout_alignStart="@id/textView18"
+            android:layout_below="@id/textView19"
+            android:layout_marginTop="20dp"
+            android:text="Data Services"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="26sp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textView21"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView19"
+            android:layout_alignStart="@+id/textView19"
+            android:layout_below="@+id/textView20"
+            android:text="With this app you can buy data at low rates, all you have to do is to select a plan of your choice, then you make payment and when transaction details is received, you will get credited instantly"
+            android:fontFamily="sans-serif"
+            android:textSize="24sp"
+            android:textColor="#ffffff"/>
+
+        <TextView
+            android:id="@+id/textView22"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/textView20"
+            android:layout_alignStart="@id/textView20"
+            android:layout_below="@id/textView21"
+            android:layout_marginTop="21dp"
+            android:text="Bills Payment Services"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="26sp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView21"
+            android:layout_alignStart="@+id/textView21"
+            android:layout_below="@+id/textView22"
+            android:text="With this app you can pay for your bills like your decoder subscription without extra charges from your banks, select you bill, make payment and send us your transaction details and then your bills are paid instantly"
+            android:fontFamily="sans-serif"
+            android:textSize="24sp"
+            android:textColor="#ffffff"/>
+
+        <TextView
+            android:id="@+id/textView24"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@id/textView22"
+            android:layout_alignStart="@id/textView22"
+            android:layout_below="@id/textView23"
+            android:layout_marginTop="21dp"
+            android:text="Other Awesome Features"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="26sp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textView25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/textView23"
+            android:layout_alignStart="@+id/textView23"
+            android:layout_below="@+id/textView24"
+            android:text=" 1. Make Calls \n 2. Send Text Messages \n 3. Group your Contacts"
+            android:fontFamily="sans-serif"
+            android:textSize="24sp"
+            android:textColor="#ffffff"/>
+
+        <TextView
+            android:id="@+id/textView26"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView25"
+            android:layout_marginTop="22dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_centerHorizontal="true"
+            android:text="           Thanks for using our app \n   Check for updates for upcoming \n                      features"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="26sp"
+            android:textColor="#ffffff"
+            android:textStyle="italic"/>
+
+        <TextView
+            android:id="@+id/textView27"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/textView26"
+            android:layout_marginTop="30dp"
+            android:layout_centerHorizontal="true"
+            android:text="             Copyright 2018 \n     Developers @ Solution Inc"
+            android:fontFamily="sans-serif-condensed"
+            android:textSize="26sp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"
+            />
+
+    </RelativeLayout>
+</ScrollView>

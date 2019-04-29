@@ -1,0 +1,559 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/checkbankacctbal"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            >
+
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="7dp"
+                android:layout_marginStart="7dp"
+                app:srcCompat="@drawable/checkaccountbalance" />
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/img1"
+                android:layout_marginLeft="7dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/img1"
+                android:layout_toRightOf="@+id/img1"
+                android:text="Account Balance"
+                android:textSize="20sp"
+                android:textColor="@color/colorBlack"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/text2"
+                android:layout_alignStart="@+id/text2"
+                android:layout_below="@+id/text2"
+                android:layout_marginTop="1dp"
+                android:text="Check and know your bank account balance"
+                android:textStyle="italic"
+                 />
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/line1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line"
+            android:layout_below="@+id/checkbankacctbal"/>
+
+        <!--============================================================================================================-->
+
+        <RelativeLayout
+            android:id="@+id/moneytransfericon"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@+id/line1"
+            >
+
+            <ImageView
+                android:id="@+id/img2"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="7dp"
+                android:layout_marginStart="7dp"
+                app:srcCompat="@drawable/moneytranfser" />
+
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/img2"
+                android:layout_marginLeft="7dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/img2"
+                android:layout_toRightOf="@+id/img2"
+                android:text="Transfer Money"
+                android:textSize="20sp"
+                android:textColor="@color/colorBlack"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/text5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/text4"
+                android:layout_alignStart="@+id/text4"
+                android:layout_below="@+id/text4"
+                android:layout_marginTop="1dp"
+                android:text="Make money transfers from your account"
+                android:textStyle="italic"
+                />
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/line2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line"
+            android:layout_below="@+id/moneytransfericon"/>
+
+        <!--============================================================================================================-->
+
+        <RelativeLayout
+            android:id="@+id/buyairtimefrombank"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@+id/line2"
+            >
+
+            <ImageView
+                android:id="@+id/img3"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="7dp"
+                android:layout_marginStart="7dp"
+                app:srcCompat="@drawable/bankairtimepurchase" />
+
+            <TextView
+                android:id="@+id/text6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/img3"
+                android:layout_marginLeft="7dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/img3"
+                android:layout_toRightOf="@+id/img3"
+                android:text="Buy Airtime"
+                android:textSize="20sp"
+                android:textColor="@color/colorBlack"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/text7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/text6"
+                android:layout_alignStart="@+id/text6"
+                android:layout_below="@+id/text6"
+                android:layout_marginTop="1dp"
+                android:text="Top up airtime for self or for friends"
+                android:textStyle="italic"
+                />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/line3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line"
+            android:layout_below="@+id/buyairtimefrombank"/>
+
+
+        <!--============================================================================================================-->
+
+
+
+        <RelativeLayout
+            android:id="@+id/paymybills"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@+id/line3"
+            >
+
+            <ImageView
+                android:id="@+id/img4"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="7dp"
+                android:layout_marginStart="7dp"
+                app:srcCompat="@drawable/paybills" />
+
+            <TextView
+                android:id="@+id/text8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/img4"
+                android:layout_marginLeft="7dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="8dp"
+                android:layout_toEndOf="@+id/img4"
+                android:layout_toRightOf="@+id/img4"
+                android:text="Pay Bills"
+                android:textSize="18sp"
+                android:textColor="@color/colorBlack"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/text9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/text8"
+                android:layout_alignStart="@+id/text8"
+                android:layout_below="@+id/text8"
+                android:layout_marginTop="1dp"
+                android:text="Make payments for your cable TV, DsTV, Electricity bills, etc"
+                android:textStyle="italic"
+                 />
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/line4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line"
+            android:layout_below="@+id/paymybills"/>
+
+
+
+
+        <!--============================================================================================================-->
+
+
+
+        <RelativeLayout
+            android:id="@+id/bankcustomcare"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@+id/line4"
+            >
+
+            <ImageView
+                android:id="@+id/img5"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="7dp"
+                android:layout_marginStart="7dp"
+                app:srcCompat="@drawable/callkitcustomercare" />
+
+            <TextView
+                android:id="@+id/text10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/img5"
+                android:layout_marginLeft="7dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="1dp"
+                android:layout_toEndOf="@+id/img5"
+                android:layout_toRightOf="@+id/img5"
+                android:text="Customer Care"
+                android:textSize="20sp"
+                android:textColor="@color/colorBlack"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/text11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/text10"
+                android:layout_alignStart="@+id/text10"
+                android:layout_below="@+id/text10"
+                android:layout_marginTop="1dp"
+                android:text="Contact your Bank Customer Care for issues and complaints"
+                android:textStyle="italic"
+                 />
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/line5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line"
+            android:layout_below="@+id/bankcustomcare"/>
+
+
+
+        <!--============================================================================================================-->
+
+
+
+        <RelativeLayout
+            android:id="@+id/cashwithdraw"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:layout_below="@+id/line5"
+            >
+
+            <ImageView
+                android:id="@+id/img6"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="7dp"
+                android:layout_marginStart="7dp"
+                app:srcCompat="@drawable/cashwithdrawal" />
+
+            <TextView
+                android:id="@+id/text12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/img6"
+                android:layout_marginLeft="7dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="1dp"
+                android:layout_toEndOf="@+id/img6"
+                android:layout_toRightOf="@+id/img6"
+                android:text="Cardless Cash Withdrawal"
+                android:textSize="20sp"
+                android:textColor="@color/colorBlack"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/text13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/text12"
+                android:layout_alignStart="@+id/text12"
+                android:layout_below="@+id/text12"
+                android:layout_marginTop="1dp"
+                android:text="Withdraw cash from ATM without your debit cards"
+                android:textStyle="italic"
+                 />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/line6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line"
+            android:layout_below="@+id/cashwithdraw"/>
+
+
+
+        <!--============================================================================================================-->
+
+
+
+        <RelativeLayout
+            android:id="@+id/cardblocking"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@+id/line6"
+            >
+
+            <ImageView
+                android:id="@+id/img7"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="7dp"
+                android:layout_marginStart="7dp"
+                app:srcCompat="@drawable/debitcardblocking" />
+
+            <TextView
+                android:id="@+id/text14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/img7"
+                android:layout_marginLeft="7dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/img7"
+                android:layout_toRightOf="@+id/img7"
+                android:text="Block Debit Card"
+                android:textSize="20sp"
+                android:textColor="@color/colorBlack"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/text15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/text14"
+                android:layout_alignStart="@+id/text14"
+                android:layout_below="@+id/text14"
+                android:layout_marginTop="1dp"
+                android:text="Deactivate your stolen/missing debit cards"
+                android:textStyle="italic"
+                />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/line7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line"
+            android:layout_below="@+id/cardblocking"/>
+
+
+
+        <!--============================================================================================================-->
+
+
+
+        <RelativeLayout
+            android:id="@+id/accountopening"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@+id/line7"
+            >
+
+            <ImageView
+                android:id="@+id/img8"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="7dp"
+                android:layout_marginStart="7dp"
+                app:srcCompat="@drawable/openaccount" />
+
+            <TextView
+                android:id="@+id/text16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/img8"
+                android:layout_marginLeft="7dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/img8"
+                android:layout_toRightOf="@+id/img8"
+                android:text="Create Bank Account"
+                android:textSize="20sp"
+                android:textColor="@color/colorBlack"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/text17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/text16"
+                android:layout_alignStart="@+id/text16"
+                android:layout_below="@+id/text16"
+                android:layout_marginTop="1dp"
+                android:text="Open an Account with us and start saving big"
+                android:textStyle="italic"
+                 />
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/line8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line"
+            android:layout_below="@+id/accountopening"/>
+
+
+
+        <!--============================================================================================================-->
+
+
+
+        <RelativeLayout
+            android:id="@+id/extraservices"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@+id/line8"
+            >
+
+            <ImageView
+                android:id="@+id/img9"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="7dp"
+                android:layout_marginStart="7dp"
+                app:srcCompat="@drawable/extraservices" />
+
+            <TextView
+                android:id="@+id/text18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/img9"
+                android:layout_marginLeft="7dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/img9"
+                android:layout_toRightOf="@+id/img9"
+                android:text="Extra Services"
+                android:textSize="20sp"
+                android:textColor="@color/colorBlack"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/text19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/text18"
+                android:layout_alignStart="@+id/text18"
+                android:layout_below="@+id/text18"
+                android:layout_marginTop="1dp"
+                android:text="Proceed to explore more of our services"
+                android:textStyle="italic"
+                 />
+
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/line9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line"
+            android:layout_below="@+id/extraservices"/>
+
+
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

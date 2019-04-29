@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:id="@+id/makepayment"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        >
+
+        <ImageView
+            android:id="@+id/img1"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="7dp"
+            android:layout_marginStart="7dp"
+            app:srcCompat="@drawable/makepayment" />
+
+        <TextView
+            android:id="@+id/text2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/img1"
+            android:layout_marginLeft="7dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="5dp"
+            android:layout_toEndOf="@+id/img1"
+            android:layout_toRightOf="@+id/img1"
+            android:text="Make Payment"
+            android:textSize="20sp"
+            android:textColor="@color/colorBlack"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/text2"
+            android:layout_alignStart="@+id/text2"
+            android:layout_below="@+id/text2"
+            android:layout_marginTop="1dp"
+            android:text="Proceed to make money transfer to our account. Please confirm our account details"
+            android:textStyle="italic"
+            />
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/line1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/line"
+        android:layout_below="@id/makepayment"/>
+
+    <!--============================================================================================================-->
+
+    <RelativeLayout
+        android:id="@+id/sendtransactiondetails"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_below="@+id/line1"
+        >
+
+        <ImageView
+            android:id="@+id/img2"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="7dp"
+            android:layout_marginStart="7dp"
+            app:srcCompat="@drawable/sendtransactiondetails" />
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/img2"
+            android:layout_marginLeft="7dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="-10dp"
+            android:layout_toEndOf="@+id/img2"
+            android:layout_toRightOf="@+id/img2"
+            android:text="Send Transaction Details"
+            android:textSize="20sp"
+            android:textColor="@color/colorBlack"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/text5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/text4"
+            android:layout_alignStart="@+id/text4"
+            android:layout_below="@+id/text4"
+            android:layout_marginTop="1dp"
+            android:text="After successful payment, text us your payment details such as your name, amount sent, service payed for and phone number/decoder number/smartcard number"
+            android:textStyle="italic"
+            />
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/line2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/line"
+        android:layout_below="@id/sendtransactiondetails"/>
+
+    <!--============================================================================================================-->
+
+    <RelativeLayout
+        android:id="@+id/callkitcustomercare"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_below="@+id/line2"
+        >
+
+        <ImageView
+            android:id="@+id/img3"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="7dp"
+            android:layout_marginStart="7dp"
+            app:srcCompat="@drawable/callkitcustomercare" />
+
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/img3"
+            android:layout_marginLeft="7dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="1dp"
+            android:layout_toEndOf="@+id/img3"
+            android:layout_toRightOf="@+id/img3"
+            android:text="Customer Care"
+            android:textSize="20sp"
+            android:textColor="@color/colorBlack"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/text7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignLeft="@+id/text6"
+            android:layout_alignStart="@+id/text6"
+            android:layout_below="@+id/text6"
+            android:layout_marginTop="1dp"
+            android:text="If you have any issues or challenges contact us through any of our customer care lines"
+            android:textStyle="italic"
+            />
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/line3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/line"
+        android:layout_below="@id/callkitcustomercare"/>
+
+
+
+</RelativeLayout>
+

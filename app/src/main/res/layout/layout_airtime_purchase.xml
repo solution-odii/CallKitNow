@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:fillViewport="true"
+    android:background="@color/colorPrimary"
+
+    >
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <ImageView
+            android:id="@+id/imageView17"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="7dp"
+            app:srcCompat="@drawable/onehundred" />
+
+        <ImageView
+            android:id="@+id/imageView27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/line2"
+            android:layout_alignTop="@+id/imageView17"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="32dp" />
+
+        <ImageView
+            android:id="@+id/imageView28"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/twohundred"
+            android:layout_below="@+id/imageView17"
+            android:layout_alignLeft="@+id/imageView17"
+            android:layout_alignStart="@+id/imageView17"
+            android:layout_marginTop="15dp" />
+
+        <ImageView
+            android:id="@+id/imageView30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/line2"
+            android:layout_marginTop="25dp"
+            android:layout_below="@+id/imageView27"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:id="@+id/imageView33"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView28"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="15dp"
+            app:srcCompat="@drawable/threehundred" />
+
+        <ImageView
+            android:id="@+id/imageView34"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/line2"
+            android:layout_marginTop="24dp"
+            android:layout_below="@+id/imageView30"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:id="@+id/imageView35"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView33"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="13dp"
+            app:srcCompat="@drawable/fourhundred" />
+
+        <ImageView
+            android:id="@+id/imageView36"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/line2"
+            android:scaleType="fitXY"
+            android:layout_below="@+id/imageView34"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="24dp" />
+
+        <ImageView
+            android:id="@+id/imageView37"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="13dp"
+            app:srcCompat="@drawable/fivehundred"
+            android:layout_below="@+id/imageView35"
+            android:layout_alignLeft="@+id/imageView35"
+            android:layout_alignStart="@+id/imageView35" />
+
+        <ImageView
+            android:id="@+id/imageView38"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/line2"
+            android:layout_marginTop="23dp"
+            android:layout_below="@+id/imageView36"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:id="@+id/imageView40"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView37"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="12dp"
+            app:srcCompat="@drawable/sevenfifty" />
+
+        <ImageView
+            android:id="@+id/imageView41"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/line2"
+            android:layout_marginTop="21dp"
+            android:layout_below="@+id/imageView38"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:id="@+id/imageView42"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="12dp"
+            app:srcCompat="@drawable/onethousand"
+            android:layout_below="@+id/imageView40"
+            android:layout_alignLeft="@+id/imageView40"
+            android:layout_alignStart="@+id/imageView40" />
+
+        <ImageView
+            android:id="@+id/imageView44"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/line2"
+            android:layout_below="@+id/imageView41"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="23dp" />
+
+        <ImageView
+            android:id="@+id/imageView45"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView42"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="11dp"
+            app:srcCompat="@drawable/onefivethousand" />
+
+        <ImageView
+            android:id="@+id/imageView46"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/line2"
+            android:layout_below="@+id/imageView44"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="21dp" />
+
+        <ImageView
+            android:id="@+id/imageView47"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView45"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="13dp"
+            app:srcCompat="@drawable/twothousand" />
+
+        <ImageView
+            android:id="@+id/imageView48"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/line2"
+            android:layout_marginTop="23dp"
+            android:layout_below="@+id/imageView46"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:id="@+id/imageView49"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView47"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="13dp"
+            app:srcCompat="@drawable/twofivethousand" />
+
+        <ImageView
+            android:id="@+id/imageView50"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/line2"
+            android:layout_below="@+id/imageView48"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="24dp" />
+
+        <ImageView
+            android:id="@+id/imageView51"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView49"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="13dp"
+            app:srcCompat="@drawable/fivethousand" />
+
+        <ImageView
+            android:id="@+id/imageView52"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/line2"
+            android:layout_marginTop="22dp"
+            android:layout_below="@+id/imageView50"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:id="@+id/imageView53"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView51"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="11dp"
+            app:srcCompat="@drawable/tenthousand" />
+
+        <ImageView
+            android:id="@+id/imageView54"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:scaleType="fitXY"
+            app:srcCompat="@drawable/line2"
+            android:layout_marginTop="19dp"
+            android:layout_below="@+id/imageView52"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+        <ImageView
+            android:id="@+id/imageView55"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView53"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="9dp"
+            app:srcCompat="@drawable/otheramount" />
+    </RelativeLayout>
+</ScrollView>

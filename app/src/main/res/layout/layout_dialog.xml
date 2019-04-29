@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffffffff">
+
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:id="@+id/a"
+        android:gravity="center"
+        android:background="#3498DB"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="fffd"
+        android:id="@+id/textdialog"
+        android:layout_below="@+id/a"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="4dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="18sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_horizontal"
+        />
+
+    <Button
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="Proceed"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:textColor="@color/colorWhite"
+        android:background="@drawable/buttonshape"
+        android:id="@+id/proceedbtn"
+        android:layout_below="@+id/textdialog"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="48dp"
+        android:layout_marginEnd="48dp" />
+
+    <Button
+        android:id="@+id/cancelbutton"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/buttonshape"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/textdialog"
+        android:layout_marginLeft="44dp"
+        android:layout_marginStart="44dp"
+        android:text="Cancel"
+        android:textStyle="bold"
+        android:textSize="14sp"
+        android:textColor="@color/colorWhite"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/titledialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="27dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginTop="18dp"
+        android:text="Alert"
+        android:fontFamily="sans-serif-condensed"
+        android:textColor="@color/colorWhite"
+        android:textSize="26sp"
+        android:textStyle="bold"/>
+
+
+
+</RelativeLayout>

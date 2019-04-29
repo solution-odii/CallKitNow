@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:orientation="vertical">
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/homepage"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true"
+            android:id="@+id/gifImageView" />
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:tint="@color/colorPrimary"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/gifImageView"
+            android:layout_marginLeft="46dp"
+            android:layout_marginStart="46dp"
+            android:layout_marginTop="5dp"
+            android:src="@drawable/ic_data" />
+
+        <TextView
+            android:id="@+id/textView4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageView2"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:text="Data Services"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif"/>
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:tint="@color/colorPrimary"
+            android:layout_marginEnd="46dp"
+            android:layout_marginRight="46dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/ic_paybills"
+            android:layout_marginTop="5dp"
+            android:layout_below="@+id/gifImageView"
+            />
+
+        <TextView
+            android:id="@+id/textView5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pay Bills"
+            android:textStyle="bold"
+            android:textColor="#212121"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif"
+            android:layout_below="@id/imageView3"
+            android:layout_marginEnd="40dp"
+            android:layout_marginRight="40dp"
+            android:layout_marginTop="5dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentEnd="true" />
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:tint="@color/colorPrimary"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textView4"
+            android:layout_marginLeft="46dp"
+            android:layout_marginStart="46dp"
+            android:layout_marginTop="45dp"
+            android:src="@drawable/ic_airtime" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/imageView5"
+            android:layout_marginLeft="15dp"
+            android:layout_marginStart="15dp"
+            android:layout_marginTop="5dp"
+            android:text="Airtime Services"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif" />
+
+        <ImageView
+            android:id="@+id/imageView6"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:tint="@color/colorPrimary"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/textView5"
+            android:layout_marginEnd="46dp"
+            android:layout_marginRight="46dp"
+            android:layout_marginTop="45dp"
+            android:src="@drawable/ic_airtimeconvert" />
+
+        <TextView
+            android:id="@+id/textView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/imageView6"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:text="Airtime to Cash"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif" />
+
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:tint="@color/colorPrimary"
+            android:layout_below="@+id/gifImageView"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="65dp"
+           android:src="@drawable/ic_swapairtime" />
+
+        <TextView
+            android:id="@+id/textView9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/imageView8"
+            android:layout_centerHorizontal="true"
+            android:text="Swap Airtime"
+            android:textStyle="bold"
+            android:textColor="@color/colorBlack"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif" />
+
+
+    </RelativeLayout>
+</ScrollView>

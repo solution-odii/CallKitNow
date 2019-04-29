@@ -1,0 +1,1098 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/customer"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            >
+
+            <ImageView
+                android:id="@+id/img1"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="7dp"
+                android:layout_marginStart="7dp"
+                app:srcCompat="@drawable/glocustomercare" />
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/img1"
+                android:layout_marginLeft="7dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/img1"
+                android:layout_toRightOf="@+id/img1"
+                android:text="Customer Care"
+                android:textSize="20sp"
+                android:textColor="@color/colorBlack"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/text3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/text2"
+                android:layout_alignStart="@+id/text2"
+                android:layout_below="@+id/text2"
+                android:layout_marginTop="1dp"
+                android:text="Speak with an Online Representative"
+                android:textStyle="italic"
+                android:layout_toLeftOf="@+id/pic1"
+                android:layout_toStartOf="@+id/pic1" />
+
+            <ImageView
+                android:id="@+id/pic1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:scaleType="centerCrop"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="7dp"
+                android:layout_marginRight="7dp"
+                app:srcCompat="@drawable/callbutton" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/line1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line"
+            android:layout_below="@id/customer"/>
+
+        <!--============================================================================================================-->
+
+        <RelativeLayout
+            android:id="@+id/airtime"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@+id/line1"
+            >
+
+            <ImageView
+                android:id="@+id/img2"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="7dp"
+                android:layout_marginStart="7dp"
+                app:srcCompat="@drawable/gloairtimebalance" />
+
+            <TextView
+                android:id="@+id/text4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/img2"
+                android:layout_marginLeft="7dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/img2"
+                android:layout_toRightOf="@+id/img2"
+                android:text="Airtime Balance"
+                android:textSize="20sp"
+                android:textColor="@color/colorBlack"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/text5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/text4"
+                android:layout_alignStart="@+id/text4"
+                android:layout_below="@+id/text4"
+                android:layout_marginTop="1dp"
+                android:text="Check your airtime balance"
+                android:textStyle="italic"
+                android:layout_toLeftOf="@+id/pic2"
+                android:layout_toStartOf="@+id/pic2" />
+
+            <ImageView
+                android:id="@+id/pic2"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:scaleType="centerCrop"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="7dp"
+                android:layout_marginRight="7dp"
+                app:srcCompat="@drawable/callbutton" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/line2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line"
+            android:layout_below="@id/airtime"/>
+
+        <!--============================================================================================================-->
+
+        <RelativeLayout
+            android:id="@+id/databalance"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@+id/line2"
+            >
+
+            <ImageView
+                android:id="@+id/img3"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="7dp"
+                android:layout_marginStart="7dp"
+                app:srcCompat="@drawable/glodatabalance" />
+
+            <TextView
+                android:id="@+id/text6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/img3"
+                android:layout_marginLeft="7dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/img3"
+                android:layout_toRightOf="@+id/img3"
+                android:text="Data Balance"
+                android:textSize="20sp"
+                android:textColor="@color/colorBlack"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/text7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/text6"
+                android:layout_alignStart="@+id/text6"
+                android:layout_below="@+id/text6"
+                android:layout_marginTop="1dp"
+                android:text="Check your data bundle balance"
+                android:textStyle="italic"
+                android:layout_toLeftOf="@+id/pic3"
+                android:layout_toStartOf="@+id/pic3" />
+
+            <ImageView
+                android:id="@+id/pic3"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:scaleType="centerCrop"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="7dp"
+                android:layout_marginRight="7dp"
+                app:srcCompat="@drawable/callbutton" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/line3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line"
+            android:layout_below="@id/databalance"/>
+
+
+        <!--============================================================================================================-->
+
+
+
+        <RelativeLayout
+            android:id="@+id/recharge"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@+id/line3"
+            >
+
+            <ImageView
+                android:id="@+id/img4"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="7dp"
+                android:layout_marginStart="7dp"
+                app:srcCompat="@drawable/glorecharge" />
+
+            <TextView
+                android:id="@+id/text8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/img4"
+                android:layout_marginLeft="7dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="8dp"
+                android:layout_toEndOf="@+id/img4"
+                android:layout_toRightOf="@+id/img4"
+                android:text="Airtime Recharge"
+                android:textSize="20sp"
+                android:textColor="@color/colorBlack"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/text9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/text8"
+                android:layout_alignStart="@+id/text8"
+                android:layout_below="@+id/text8"
+                android:layout_marginTop="1dp"
+                android:text="Top up Airtime with Recharge card pin"
+                android:textStyle="italic"
+                android:layout_toLeftOf="@+id/pic4"
+                android:layout_toStartOf="@+id/pic4" />
+
+            <ImageView
+                android:id="@+id/pic4"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:scaleType="centerCrop"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="7dp"
+                android:layout_marginRight="7dp"
+                app:srcCompat="@drawable/callbutton" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/line4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line"
+            android:layout_below="@+id/recharge"/>
+
+
+
+
+        <!--============================================================================================================-->
+
+
+
+        <RelativeLayout
+            android:id="@+id/buyairtime"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@+id/line4"
+            >
+
+            <ImageView
+                android:id="@+id/img5"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="7dp"
+                android:layout_marginStart="7dp"
+                app:srcCompat="@drawable/globuyairtimefrombank" />
+
+            <TextView
+                android:id="@+id/text10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/img5"
+                android:layout_marginLeft="7dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="8dp"
+                android:layout_toEndOf="@+id/img5"
+                android:layout_toRightOf="@+id/img5"
+                android:text="Bank Airtime Recharge"
+                android:textSize="20sp"
+                android:textColor="@color/colorBlack"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/text11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/text10"
+                android:layout_alignStart="@+id/text10"
+                android:layout_below="@+id/text10"
+                android:layout_marginTop="1dp"
+                android:text="Top up Airtime from your bank account"
+                android:textStyle="italic"
+                android:layout_toLeftOf="@+id/pic5"
+                android:layout_toStartOf="@+id/pic5" />
+
+            <ImageView
+                android:id="@+id/pic5"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:scaleType="centerCrop"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="7dp"
+                android:layout_marginRight="7dp"
+                app:srcCompat="@drawable/callbutton" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/line5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line"
+            android:layout_below="@+id/buyairtime"/>
+
+
+
+        <!--============================================================================================================-->
+
+
+
+        <RelativeLayout
+            android:id="@+id/buydata"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@+id/line5"
+            >
+
+            <ImageView
+                android:id="@+id/img6"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="7dp"
+                android:layout_marginStart="7dp"
+                app:srcCompat="@drawable/globuydata" />
+
+            <TextView
+                android:id="@+id/text12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/img6"
+                android:layout_marginLeft="7dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/img6"
+                android:layout_toRightOf="@+id/img6"
+                android:text="Buy Data"
+                android:textSize="20sp"
+                android:textColor="@color/colorBlack"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/text13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/text12"
+                android:layout_alignStart="@+id/text12"
+                android:layout_below="@+id/text12"
+                android:layout_marginTop="1dp"
+                android:text="Subscribe to a or renew data plan"
+                android:textStyle="italic"
+                android:layout_toLeftOf="@+id/pic6"
+                android:layout_toStartOf="@+id/pic6" />
+
+            <ImageView
+                android:id="@+id/pic6"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:scaleType="centerCrop"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="7dp"
+                android:layout_marginRight="7dp"
+                app:srcCompat="@drawable/callbutton" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/line6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line"
+            android:layout_below="@+id/buydata"/>
+
+
+
+        <!--============================================================================================================-->
+
+
+
+        <RelativeLayout
+            android:id="@+id/nightplan"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@+id/line6"
+            >
+
+            <ImageView
+                android:id="@+id/imgnow6"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="7dp"
+                android:layout_marginStart="7dp"
+                app:srcCompat="@drawable/glonightplan" />
+
+            <TextView
+                android:id="@+id/textnow12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/imgnow6"
+                android:layout_marginLeft="7dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/imgnow6"
+                android:layout_toRightOf="@+id/imgnow6"
+                android:text="Night Plan"
+                android:textSize="20sp"
+                android:textColor="@color/colorBlack"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/textnow13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/textnow12"
+                android:layout_alignStart="@+id/textnow12"
+                android:layout_below="@+id/textnow12"
+                android:layout_marginTop="1dp"
+                android:text="Subscribe to a or renew night plan"
+                android:textStyle="italic"
+                android:layout_toLeftOf="@+id/picnow6"
+                android:layout_toStartOf="@+id/picnow6" />
+
+            <ImageView
+                android:id="@+id/picnow6"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:scaleType="centerCrop"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="7dp"
+                android:layout_marginRight="7dp"
+                app:srcCompat="@drawable/callbutton" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/linenow6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line"
+            android:layout_below="@+id/nightplan"/>
+
+
+
+        <!--============================================================================================================-->
+
+
+        <RelativeLayout
+            android:id="@+id/borrowairtime"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@+id/linenow6"
+            >
+
+
+            <ImageView
+                android:id="@+id/img7"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="7dp"
+                android:layout_marginStart="7dp"
+                app:srcCompat="@drawable/globorrowairtime" />
+
+            <TextView
+                android:id="@+id/text14"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/img7"
+                android:layout_marginLeft="7dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/img7"
+                android:layout_toRightOf="@+id/img7"
+                android:text="Borrow Airtime"
+                android:textSize="20sp"
+                android:textColor="@color/colorBlack"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/text15"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/text14"
+                android:layout_alignStart="@+id/text14"
+                android:layout_below="@+id/text14"
+                android:layout_marginTop="1dp"
+                android:text="Request for airtime"
+                android:textStyle="italic"
+                android:layout_toLeftOf="@+id/pic7"
+                android:layout_toStartOf="@+id/pic7" />
+
+            <ImageView
+                android:id="@+id/pic7"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:scaleType="centerCrop"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="7dp"
+                android:layout_marginRight="7dp"
+                app:srcCompat="@drawable/callbutton" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/line7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line"
+            android:layout_below="@+id/borrowairtime"/>
+
+
+
+        <!--============================================================================================================-->
+
+
+
+        <RelativeLayout
+            android:id="@+id/airtimetransfer"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@+id/line7"
+            >
+
+            <ImageView
+                android:id="@+id/img8"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="7dp"
+                android:layout_marginStart="7dp"
+                app:srcCompat="@drawable/gloairtimetransfer" />
+
+            <TextView
+                android:id="@+id/text16"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/img8"
+                android:layout_marginLeft="7dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/img8"
+                android:layout_toRightOf="@+id/img8"
+                android:text="Transfer Airtime"
+                android:textSize="20sp"
+                android:textColor="@color/colorBlack"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/text17"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/text16"
+                android:layout_alignStart="@+id/text16"
+                android:layout_below="@+id/text16"
+                android:layout_marginTop="1dp"
+                android:text="Send airtime to a friend "
+                android:textStyle="italic"
+                android:layout_toLeftOf="@+id/pic8"
+                android:layout_toStartOf="@+id/pic8" />
+
+            <ImageView
+                android:id="@+id/pic8"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:scaleType="centerCrop"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="7dp"
+                android:layout_marginRight="7dp"
+                app:srcCompat="@drawable/callbutton" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/line8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line"
+            android:layout_below="@+id/airtimetransfer"/>
+
+
+
+        <!--============================================================================================================-->
+
+
+
+        <RelativeLayout
+            android:id="@+id/datashare"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@+id/line8"
+            >
+
+            <ImageView
+                android:id="@+id/img9"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="7dp"
+                android:layout_marginStart="7dp"
+                app:srcCompat="@drawable/glodatashare" />
+
+            <TextView
+                android:id="@+id/text18"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/img9"
+                android:layout_marginLeft="7dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/img9"
+                android:layout_toRightOf="@+id/img9"
+                android:text="Share Data"
+                android:textSize="20sp"
+                android:textColor="@color/colorBlack"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/text19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/text18"
+                android:layout_alignStart="@+id/text18"
+                android:layout_below="@+id/text18"
+                android:layout_marginTop="1dp"
+                android:text="Share Data with a friend"
+                android:textStyle="italic"
+                android:layout_toLeftOf="@+id/pic9"
+                android:layout_toStartOf="@+id/pic9" />
+
+            <ImageView
+                android:id="@+id/pic9"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:scaleType="centerCrop"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="7dp"
+                android:layout_marginRight="7dp"
+                app:srcCompat="@drawable/callbutton" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/line9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line"
+            android:layout_below="@+id/datashare"/>
+
+
+
+        <!--============================================================================================================-->
+
+
+
+        <RelativeLayout
+            android:id="@+id/tariff"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@+id/line9"
+            >
+
+            <ImageView
+                android:id="@+id/img10"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="7dp"
+                android:layout_marginStart="7dp"
+                app:srcCompat="@drawable/glotarriffmigration" />
+
+            <TextView
+                android:id="@+id/text20"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/img10"
+                android:layout_marginLeft="7dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/img10"
+                android:layout_toRightOf="@+id/img10"
+                android:text="Tariff Plan Migration"
+                android:textSize="20sp"
+                android:textColor="@color/colorBlack"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/text21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/text20"
+                android:layout_alignStart="@+id/text20"
+                android:layout_below="@+id/text20"
+                android:layout_marginTop="1dp"
+                android:text="Migrate to a new Tariff Plan"
+                android:textStyle="italic"
+                android:layout_toLeftOf="@+id/pic10"
+                android:layout_toStartOf="@+id/pic10" />
+
+            <ImageView
+                android:id="@+id/pic10"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:scaleType="centerCrop"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="7dp"
+                android:layout_marginRight="7dp"
+                app:srcCompat="@drawable/callbutton" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/line10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line"
+            android:layout_below="@+id/tariff"/>
+
+
+
+
+        <!--============================================================================================================-->
+
+
+
+        <RelativeLayout
+            android:id="@+id/datagift"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@+id/line10"
+            >
+
+            <ImageView
+                android:id="@+id/img11"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="7dp"
+                android:layout_marginStart="7dp"
+                app:srcCompat="@drawable/glodatagifting" />
+
+            <TextView
+                android:id="@+id/text22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/img11"
+                android:layout_marginLeft="7dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/img11"
+                android:layout_toRightOf="@+id/img11"
+                android:text="Gift Data"
+                android:textSize="20sp"
+                android:textColor="@color/colorBlack"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/text23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/text22"
+                android:layout_alignStart="@+id/text22"
+                android:layout_below="@+id/text22"
+                android:layout_marginTop="1dp"
+                android:text="Subscribe for a friend"
+                android:textStyle="italic"
+                android:layout_toLeftOf="@+id/pic11"
+                android:layout_toStartOf="@+id/pic11" />
+
+            <ImageView
+                android:id="@+id/pic11"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:scaleType="centerCrop"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="7dp"
+                android:layout_marginRight="7dp"
+                app:srcCompat="@drawable/callbutton" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/line11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line"
+            android:layout_below="@+id/datagift"/>
+
+
+        <!--============================================================================================================-->
+
+
+
+        <RelativeLayout
+            android:id="@+id/borrowdata"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@+id/line11"
+            >
+
+            <ImageView
+                android:id="@+id/img12"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="7dp"
+                android:layout_marginStart="7dp"
+                app:srcCompat="@drawable/globorrowdata" />
+
+            <TextView
+                android:id="@+id/text24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/img12"
+                android:layout_marginLeft="7dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/img12"
+                android:layout_toRightOf="@+id/img12"
+                android:text="Borrow Data"
+                android:textSize="20sp"
+                android:textColor="@color/colorBlack"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/text25"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/text24"
+                android:layout_alignStart="@+id/text24"
+                android:layout_below="@+id/text24"
+                android:layout_marginTop="1dp"
+                android:text="Request for Data Bundle"
+                android:textStyle="italic"
+                android:layout_toLeftOf="@+id/pic12"
+                android:layout_toStartOf="@+id/pic12" />
+
+            <ImageView
+                android:id="@+id/pic12"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:scaleType="centerCrop"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="7dp"
+                android:layout_marginRight="7dp"
+                app:srcCompat="@drawable/callbutton" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/line12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line"
+            android:layout_below="@+id/borrowdata"/>
+
+
+        <!--============================================================================================================-->
+
+
+
+        <RelativeLayout
+            android:id="@+id/mynumber"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@+id/line12"
+            >
+
+            <ImageView
+                android:id="@+id/img13"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="7dp"
+                android:layout_marginStart="7dp"
+                app:srcCompat="@drawable/glomynumber" />
+
+            <TextView
+                android:id="@+id/text26"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/img13"
+                android:layout_marginLeft="7dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/img13"
+                android:layout_toRightOf="@+id/img13"
+                android:text="My Number"
+                android:textSize="20sp"
+                android:textColor="@color/colorBlack"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/text27"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/text26"
+                android:layout_alignStart="@+id/text26"
+                android:layout_below="@+id/text26"
+                android:layout_marginTop="1dp"
+                android:text="Check your phone number"
+                android:textStyle="italic"
+                android:layout_toLeftOf="@+id/pic13"
+                android:layout_toStartOf="@+id/pic13" />
+
+            <ImageView
+                android:id="@+id/pic13"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:scaleType="centerCrop"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="7dp"
+                android:layout_marginRight="7dp"
+                app:srcCompat="@drawable/callbutton" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/line13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line"
+            android:layout_below="@+id/mynumber"/>
+
+
+
+
+        <!--============================================================================================================-->
+
+
+
+        <RelativeLayout
+            android:id="@+id/moreservices"
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:layout_below="@+id/line13"
+            >
+
+            <ImageView
+                android:id="@+id/img14"
+                android:layout_width="65dp"
+                android:layout_height="65dp"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="7dp"
+                android:layout_marginStart="7dp"
+                app:srcCompat="@drawable/glomoreservices" />
+
+            <TextView
+                android:id="@+id/text28"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/img14"
+                android:layout_marginLeft="7dp"
+                android:layout_marginStart="7dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/img14"
+                android:layout_toRightOf="@+id/img14"
+                android:text="More Services"
+                android:textSize="20sp"
+                android:textColor="@color/colorBlack"
+                android:fontFamily="sans-serif"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/text29"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignLeft="@+id/text28"
+                android:layout_alignStart="@+id/text28"
+                android:layout_below="@+id/text28"
+                android:layout_marginTop="1dp"
+                android:text="Explore more services from GLO"
+                android:textStyle="italic"
+                android:layout_toLeftOf="@+id/pic14"
+                android:layout_toStartOf="@+id/pic14" />
+
+            <ImageView
+                android:id="@+id/pic14"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:scaleType="centerCrop"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="7dp"
+                android:layout_marginRight="7dp"
+                app:srcCompat="@drawable/callbutton" />
+        </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+</ScrollView>
