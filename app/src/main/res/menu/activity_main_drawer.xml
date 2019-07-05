@@ -64,6 +64,13 @@
                     />
 
                 <item
+                    android:id="@+id/terms"
+                    android:icon="@drawable/ic_about"
+                    android:iconTint="@color/colorPrimary"
+                    android:title="Terms and Conditions"
+                    />
+
+                <item
                     android:id="@+id/share"
                     android:icon="@drawable/ic_menu_share"
                     android:iconTint="@color/colorPrimary"

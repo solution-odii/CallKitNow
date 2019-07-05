@@ -14,6 +14,7 @@ import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentTransaction;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AlertDialog;
+import android.telecom.TelecomManager;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.support.design.widget.NavigationView;
@@ -77,6 +78,9 @@ public class MainActivity extends AppCompatActivity
         }
 
         c = this;
+        Intent intent = new Intent(TelecomManager.ACTION_CHANGE_DEFAULT_DIALER);
+        intent.putExtra(TelecomManager.EXTRA_CHANGE_DEFAULT_DIALER_PACKAGE_NAME, c.getPackageName());
+        startActivity(intent);
 
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         ActionBarDrawerToggle toggle = new ActionBarDrawerToggle(
@@ -326,7 +330,13 @@ public class MainActivity extends AppCompatActivity
                     .addToBackStack(null)
                     .commit();
 
-        } else if (id == R.id.share) {
+        } else if (id == R.id.terms) {
+            Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("http://bit.ly/callkitprivacy"));
+            startActivity(intent);
+
+        }
+
+        else if (id == R.id.share) {
             Intent sharingIntent = new Intent(Intent.ACTION_SEND);
             sharingIntent.setType("text/plain");
             sharingIntent.putExtra(Intent.EXTRA_TEXT, "Download Call Kit Now" + "\n" + "The Best Self Service App" + "\n" + "https://play.google.com/store/apps/details?id=com.solutionappstudio.callkit");
